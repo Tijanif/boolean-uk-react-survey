@@ -1,7 +1,48 @@
+import {useState} from 'react'
+
 import Checkboxes from "./Checkboxes"
 import RadioButtons from './RadioButtons'
 import LastCheckBoxes from './LastCheckBoxes'
+
+
+
+  // username,
+  //   email,
+  //   logo,
+  //   colour,
+  //   consistency,
+  //   timeSpent,
+  //   review,
+  //   bestFeatures,
+  //   worstFeatures
+
+const InitialAnswers = {
+ username: '',
+ email: '',
+  bestFeatures: false,
+  worstFeatures: false,
+  consistency: "",
+  colour: "",
+  logo: '',
+  timeSpent: false,
+  review: ''
+};
+
 const Form = () => {
+const [answers, setAnswers] = useState(InitialAnswers)
+
+  
+
+const handleChange = (event) =>{
+ setAnswers({
+  ...answers,
+  [event.target.name]:
+  event.target.type === 'checkbox'
+  ? event.target.checked
+  : event.target.value
+ })
+}
+  
  return <form class="form">
   <h2>Tell us what you think about your rubber duck!</h2>
   <div class="form__group">

@@ -2,22 +2,22 @@ const LastCheckBoxes = () => {
  return <ul>
   <li>
     <label
-      ><input name="bestFeatures" type="checkbox" value="colour" />Swimming</label
+      ><input name="bestFeatures" type="checkbox" value="Swimming" />Swimming</label
     >
   </li>
   <li>
     <label
-      ><input name="bestFeatures" type="checkbox" value="sound" />Bathing</label
+      ><input name="bestFeatures" type="checkbox" value="Bathing" />Bathing</label
     >
   </li>
   <li>
     <label
-      ><input name="bestFeatures" type="checkbox" value="logo" />Chatting</label
+      ><input name="bestFeatures" type="checkbox" value="Chatting" />Chatting</label
     >
   </li>
   <li>
     <label
-      ><input name="bestFeatures" type="checkbox" value="size" />I don't like to spend time with it</label
+      ><input name="bestFeatures" type="checkbox" value='timeSpent'/>I don't like to spend time with it</label
     >
   </li>
 </ul>
