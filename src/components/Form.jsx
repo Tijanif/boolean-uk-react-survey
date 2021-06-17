@@ -1,5 +1,5 @@
 import Checkboxes from "./Checkboxes"
-
+import RadioButtons from './RadioButtons'
 const Form = () => {
  return <form class="form">
   <h2>Tell us what you think about your rubber duck!</h2>
@@ -15,15 +15,18 @@ const Form = () => {
   </div>
   <div class="form__group radio">
     <h3>How do you rate your rubber duck consistency?</h3>
-    {/* <!-- radio buttons go here --> */}
+    {/* <!-- radio buttons go here --> */
+    <RadioButtons/>}
   </div>
   <div class="form__group radio">
     <h3>How do you rate your rubber duck colour?</h3>
-    {/* <!-- Radio inputs go here --> */}
+    {/* <!-- Radio inputs go here --> */
+    <RadioButtons/>}
   </div>
   <div class="form__group radio">
     <h3>How do you rate your rubber duck logo?</h3>
-    {/* <!-- radio inputs go here --> */}
+    {/* <!-- radio inputs go here --> */
+    <RadioButtons/>}
   </div>
   <div class="form__group">
     <h3>How do you like to spend time with your rubber duck</h3>
