@@ -1,5 +1,6 @@
 import Checkboxes from "./Checkboxes"
 import RadioButtons from './RadioButtons'
+import LastCheckBoxes from './LastCheckBoxes'
 const Form = () => {
  return <form class="form">
   <h2>Tell us what you think about your rubber duck!</h2>
@@ -31,7 +32,7 @@ const Form = () => {
   <div class="form__group">
     <h3>How do you like to spend time with your rubber duck</h3>
     {/* <!-- checkboxes go here --> */
-    }
+    <LastCheckBoxes/> }
   </div>
   <label
     >What else have you got to say about your rubber duck?<textarea

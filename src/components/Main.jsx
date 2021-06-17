@@ -12,7 +12,7 @@ export default function Main() {
         {/* Use the AnswersList component here */
         }
       </section>
-      <section className="main__form">There's a form missing here!
+      <section className="main__form">
       <Form/>
       </section>
     </main>
