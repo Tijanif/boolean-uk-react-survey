@@ -9,7 +9,8 @@ export default function Main() {
     <main className="main">
       <section className={`main__list ${open ? "open" : ""}`}>
         <h2>Answers list</h2>
-        {/* Use the AnswersList component here */}
+        {/* Use the AnswersList component here */
+        }
       </section>
       <section className="main__form">There's a form missing here!</section>
     </main>
