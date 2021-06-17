@@ -1,13 +1,17 @@
+import Checkboxes from "./Checkboxes"
+
 const Form = () => {
  return <form class="form">
   <h2>Tell us what you think about your rubber duck!</h2>
   <div class="form__group">
     <h3>What would you say that are the best features of your rubber duck?</h3>
-    {/* <!-- checkboxes go here --> */}
+    {/* <!-- checkboxes go here --> */
+    <Checkboxes/>}
   </div>
   <div class="form__group">
     <h3>What would you say that are the worst bits of your rubber duck?</h3>
-    {/* <!-- Checkboxes go here --> */}
+    {/* <!-- Checkboxes go here --> */
+    <Checkboxes/>}
   </div>
   <div class="form__group radio">
     <h3>How do you rate your rubber duck consistency?</h3>
@@ -23,7 +27,8 @@ const Form = () => {
   </div>
   <div class="form__group">
     <h3>How do you like to spend time with your rubber duck</h3>
-    {/* <!-- checkboxes go here --> */}
+    {/* <!-- checkboxes go here --> */
+    }
   </div>
   <label
     >What else have you got to say about your rubber duck?<textarea
